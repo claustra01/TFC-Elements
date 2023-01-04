@@ -4,7 +4,6 @@ import claustra01.tfcelem.TFCEItemGroup;
 import claustra01.tfcelem.TFCElements;
 import claustra01.tfcelem.util.TFCEMetal;
 import claustra01.tfcelem.util.TFCEOre;
-import net.dries007.tfc.common.TFCItemGroup;
 import net.dries007.tfc.common.blocks.rock.Ore;
 import net.dries007.tfc.util.Helpers;
 import net.minecraft.world.item.CreativeModeTab;
