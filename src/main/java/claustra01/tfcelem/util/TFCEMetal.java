@@ -1,9 +1,9 @@
 package claustra01.tfcelem.util;
 
 import claustra01.tfcelem.TFCEItemGroup;
-import net.dries007.tfc.common.TFCArmorMaterials;
+import claustra01.tfcelem.item.TFCEArmorMaterials;
+import claustra01.tfcelem.item.TFCETiers;
 import net.dries007.tfc.common.TFCTags;
-import net.dries007.tfc.common.TFCTiers;
 import net.dries007.tfc.common.blockentities.TFCBlockEntities;
 import net.dries007.tfc.common.blocks.ExtendedProperties;
 import net.dries007.tfc.common.blocks.TFCBlocks;
@@ -32,7 +32,7 @@ import java.util.function.Supplier;
 
 public enum TFCEMetal implements RegistryMetal {
 
-    OSMIUM(0xFFB8D8DE, Rarity.EPIC, Metal.Tier.TIER_VI, TFCTiers.STEEL, TFCArmorMaterials.BLACK_STEEL, true, true, true);
+    OSMIUM(0xFFB8D8DE, Rarity.EPIC, Metal.Tier.TIER_VI, TFCETiers.OSMIUM, TFCEArmorMaterials.OSMIUM, true, true, true);
 
     private final String serializedName;
     private final boolean parts, armor, utility;
