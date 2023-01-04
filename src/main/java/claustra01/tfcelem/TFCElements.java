@@ -1,9 +1,9 @@
 package claustra01.tfcelem;
 
 import claustra01.tfcelem.block.TFCEBlocks;
+import claustra01.tfcelem.event.ClientEvents;
 import claustra01.tfcelem.item.TFCEItems;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.client.ForgeHooksClient;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -20,7 +20,7 @@ public class TFCElements {
         TFCEBlocks.BLOCKS.register(bus);
 
         if (FMLEnvironment.dist == Dist.CLIENT) {
-            //ForgeHooksClient.ClientEvents.init();
+            ClientEvents.init();
         }
     }
 
