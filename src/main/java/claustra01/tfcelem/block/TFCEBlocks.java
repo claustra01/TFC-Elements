@@ -5,6 +5,7 @@ import claustra01.tfcelem.TFCElements;
 import claustra01.tfcelem.item.TFCEItems;
 import claustra01.tfcelem.util.TFCEMetal;
 import claustra01.tfcelem.util.TFCEOre;
+import net.dries007.tfc.common.blocks.GroundcoverBlock;
 import net.dries007.tfc.common.blocks.rock.Ore;
 import net.dries007.tfc.common.blocks.rock.Rock;
 import net.dries007.tfc.util.Helpers;
@@ -13,6 +14,9 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.Material;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -32,6 +36,9 @@ public class TFCEBlocks {
                             register(("ore/" + grade.name() + "_" + ore.name() + "/" + rock.name()), () -> ore.create(rock), TFCEItemGroup.ORES)
                     )
             )
+    );
+    public static final Map<TFCEOre, RegistryObject<Block>> SMALL_ORES = Helpers.mapOfKeys(TFCEOre.class, TFCEOre::isGraded, type ->
+            register(("ore/small_" + type.name()), () -> GroundcoverBlock.looseOre(BlockBehaviour.Properties.of(Material.GRASS).strength(0.05F, 0.0F).sound(SoundType.NETHER_ORE).noCollission()), TFCEItemGroup.ORES)
     );
 
     public static final Map<TFCEMetal, Map<TFCEMetal.BlockType, RegistryObject<Block>>> METALS = Helpers.mapOfKeys(TFCEMetal.class, metal ->
