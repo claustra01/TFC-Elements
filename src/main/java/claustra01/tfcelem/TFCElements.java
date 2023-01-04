@@ -1,4 +1,4 @@
-package claustra01.tfcelements;
+package claustra01.tfcelem;
 
 import net.minecraftforge.fml.common.Mod;
 
