@@ -1,4 +1,4 @@
-package claustra01.tfcelem.item;
+package claustra01.tfcelem.misc;
 
 import claustra01.tfcelem.TFCElements;
 import net.dries007.tfc.common.TFCTags;

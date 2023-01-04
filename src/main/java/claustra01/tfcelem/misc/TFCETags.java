@@ -1,4 +1,4 @@
-package claustra01.tfcelem;
+package claustra01.tfcelem.misc;
 
 import claustra01.tfcelem.TFCElements;
 import net.minecraft.core.Registry;

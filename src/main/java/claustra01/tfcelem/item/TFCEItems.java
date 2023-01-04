@@ -1,6 +1,6 @@
 package claustra01.tfcelem.item;
 
-import claustra01.tfcelem.TFCEItemGroup;
+import claustra01.tfcelem.misc.TFCEItemGroup;
 import claustra01.tfcelem.TFCElements;
 import claustra01.tfcelem.util.TFCEMetal;
 import claustra01.tfcelem.util.TFCEOre;

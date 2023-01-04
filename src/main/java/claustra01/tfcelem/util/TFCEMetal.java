@@ -1,8 +1,8 @@
 package claustra01.tfcelem.util;
 
-import claustra01.tfcelem.TFCEItemGroup;
-import claustra01.tfcelem.item.TFCEArmorMaterials;
-import claustra01.tfcelem.item.TFCETiers;
+import claustra01.tfcelem.misc.TFCEItemGroup;
+import claustra01.tfcelem.misc.TFCEArmorMaterials;
+import claustra01.tfcelem.misc.TFCETiers;
 import net.dries007.tfc.common.TFCTags;
 import net.dries007.tfc.common.blockentities.TFCBlockEntities;
 import net.dries007.tfc.common.blocks.ExtendedProperties;

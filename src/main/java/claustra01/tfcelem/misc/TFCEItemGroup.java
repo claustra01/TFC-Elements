@@ -1,5 +1,6 @@
-package claustra01.tfcelem;
+package claustra01.tfcelem.misc;
 
+import claustra01.tfcelem.TFCElements;
 import net.dries007.tfc.common.blocks.rock.Ore;
 import net.dries007.tfc.common.capabilities.food.FoodCapability;
 import net.dries007.tfc.common.items.TFCItems;
