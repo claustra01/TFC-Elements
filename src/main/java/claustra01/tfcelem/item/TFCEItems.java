@@ -1,6 +1,8 @@
 package claustra01.tfcelem.item;
 
+import claustra01.tfcelem.TFCEItemGroup;
 import claustra01.tfcelem.TFCElements;
+import claustra01.tfcelem.util.TFCEMetal;
 import claustra01.tfcelem.util.TFCEOre;
 import net.dries007.tfc.common.TFCItemGroup;
 import net.dries007.tfc.common.blocks.rock.Ore;
@@ -21,7 +23,13 @@ public class TFCEItems {
 
     public static final Map<TFCEOre, Map<Ore.Grade, RegistryObject<Item>>> GRADED_ORES = Helpers.mapOfKeys(TFCEOre.class, TFCEOre::isGraded, ore ->
             Helpers.mapOfKeys(Ore.Grade.class, grade ->
-                    register("ore/" + grade.name() + '_' + ore.name(), TFCItemGroup.ORES)
+                    register("ore/" + grade.name() + '_' + ore.name(), TFCEItemGroup.ORES)
+            )
+    );
+
+    public static final Map<TFCEMetal, Map<TFCEMetal.ItemType, RegistryObject<Item>>> METAL_ITEMS = Helpers.mapOfKeys(TFCEMetal.class, metal ->
+            Helpers.mapOfKeys(TFCEMetal.ItemType.class, type -> type.has(metal), type ->
+                    register("metal/" + type.name() + "/" + metal.name(), () -> type.create(metal))
             )
     );
 
