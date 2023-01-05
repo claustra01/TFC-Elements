@@ -13,3 +13,13 @@ def create_nested_dict(list, val, dict, n=0):
         create_nested_dict(list, val, dict[list[n]], n + 1)
     else:
         dict[list[n]] = val
+
+# Generate metal item model
+def gen_metal_item(types, metal):
+    for type in types:
+        dict = {}
+        texture_path = "tfc:item/metal/" + type + "/" + metal[0]
+        file_path = "../src/main/resources/assets/tfc/models/item/metal/" + type + "/" + metal[0] + ".json"
+        dict["parent"] = "item/generated"
+        create_nested_dict(["textures", "layer0"], texture_path, dict)
+        gen_json(dict, file_path)

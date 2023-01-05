@@ -33,8 +33,8 @@ grades = [
 ]
 
 metals = [
-    # name, enablePart, enableArmor, enableUtility
-    ["osmium", 1, 1, 1]
+    # name, enableTool, enablePart, enableArmor, enableUtility
+    ["osmium", 1, 1, 1, 1]
 ]
 
 types_parts = [
@@ -42,4 +42,49 @@ types_parts = [
     "sheet",
     "double_sheet",
     "rod"
+]
+
+types_tools = [
+    "tuyere",
+    "fish_hook",
+    "fishing_rod",
+    "pickaxe",
+    "pickaxe_head",
+    "propick",
+    "propick_head",
+    "axe",
+    "axe_head",
+    "shovel",
+    "shovel_head",
+    "hoe",
+    "hoe_head",
+    "chisel",
+    "chisel_head",
+    "hammer",
+    "hammer_head",
+    "saw",
+    "saw_blade",
+    "javelin",
+    "javelin_head",
+    "sword",
+    "sword_blade",
+    "mace",
+    "mace_head",
+    "knife",
+    "knife_blade",
+    "scythe",
+    "scythe_blade",
+    "shears",
+    "shield"
+]
+
+types_armors = [
+    "helmet",
+    "chestplate",
+    "greaves",
+    "boots",
+    "unfinished_helmet",
+    "unfinished_chestplate",
+    "unfinished_greaves",
+    "unfinished_boots"
 ]
