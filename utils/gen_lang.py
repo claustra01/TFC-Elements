@@ -20,5 +20,5 @@ def gen_ore_lang():
     
 
     # Write lang file
-    file_path = "../src/main/resources/assets/tfc/lang/en_us.json"
+    file_path = "../src/main/resources/assets/tfcelem/lang/en_us.json"
     func.gen_json(dict, file_path)
