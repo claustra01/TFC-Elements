@@ -1,13 +1,16 @@
 package claustra01.tfcelem.item;
 
+import claustra01.tfcelem.fluid.TFCEFluids;
 import claustra01.tfcelem.misc.TFCEItemGroup;
 import claustra01.tfcelem.TFCElements;
 import claustra01.tfcelem.util.TFCEMetal;
 import claustra01.tfcelem.util.TFCEOre;
 import net.dries007.tfc.common.blocks.rock.Ore;
 import net.dries007.tfc.util.Helpers;
+import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -15,6 +18,8 @@ import net.minecraftforge.registries.RegistryObject;
 import java.util.Locale;
 import java.util.Map;
 import java.util.function.Supplier;
+
+import static net.dries007.tfc.common.TFCItemGroup.MISC;
 
 public class TFCEItems {
 
@@ -31,6 +36,10 @@ public class TFCEItems {
                     register("metal/" + type.name() + "/" + metal.name(), () -> type.create(metal))
             )
     );
+    public static final Map<TFCEMetal, RegistryObject<BucketItem>> METAL_FLUID_BUCKETS = Helpers.mapOfKeys(TFCEMetal.class, metal ->
+            register("bucket/metal/" + metal.name(), () -> new BucketItem(TFCEFluids.METALS.get(metal).source(), new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1).tab(MISC)))
+    );
+
 
     private static RegistryObject<Item> register(String name, CreativeModeTab group)
     {

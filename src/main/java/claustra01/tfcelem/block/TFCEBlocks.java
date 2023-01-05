@@ -1,11 +1,13 @@
 package claustra01.tfcelem.block;
 
+import claustra01.tfcelem.fluid.TFCEFluids;
 import claustra01.tfcelem.misc.TFCEItemGroup;
 import claustra01.tfcelem.TFCElements;
 import claustra01.tfcelem.item.TFCEItems;
 import claustra01.tfcelem.util.TFCEMetal;
 import claustra01.tfcelem.util.TFCEOre;
 import net.dries007.tfc.common.blocks.GroundcoverBlock;
+import net.dries007.tfc.common.blocks.TFCMaterials;
 import net.dries007.tfc.common.blocks.rock.Ore;
 import net.dries007.tfc.common.blocks.rock.Rock;
 import net.dries007.tfc.util.Helpers;
@@ -14,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
@@ -45,6 +48,9 @@ public class TFCEBlocks {
             Helpers.mapOfKeys(TFCEMetal.BlockType.class, type -> type.has(metal), type ->
                     register(("metal/" + type.name() + "/" + metal.name()), type.create(metal), type.createBlockItem(new Item.Properties().tab(TFCEItemGroup.METAL)))
             )
+    );
+    public static final Map<TFCEMetal, RegistryObject<LiquidBlock>> METAL_FLUIDS = Helpers.mapOfKeys(TFCEMetal.class, metal ->
+            register("metal/fluid/" + metal.name(), () -> new LiquidBlock(TFCEFluids.METALS.get(metal).source(), BlockBehaviour.Properties.of(TFCMaterials.MOLTEN_METAL).noCollission().strength(100f).lightLevel(state -> 15).noDrops()))
     );
 
 

@@ -2,6 +2,7 @@ package claustra01.tfcelem;
 
 import claustra01.tfcelem.block.TFCEBlocks;
 import claustra01.tfcelem.event.ClientEvents;
+import claustra01.tfcelem.fluid.TFCEFluids;
 import claustra01.tfcelem.item.TFCEItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -18,6 +19,7 @@ public class TFCElements {
         final IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         TFCEItems.ITEMS.register(bus);
         TFCEBlocks.BLOCKS.register(bus);
+        TFCEFluids.FLUIDS.register(bus);
 
         if (FMLEnvironment.dist == Dist.CLIENT) {
             ClientEvents.init();
