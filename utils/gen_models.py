@@ -75,3 +75,24 @@ def ore_model_gen():
                 dict["parent"] = "item/generated"
                 func.create_nested_dict(["textures", "layer0"], texture_path, dict)
                 func.gen_json(dict, file_path)
+
+# Generate metal item model files
+def metal_model_gen():
+    for metal in namelist.metals:
+        
+        # ingot item models
+        dict = {}
+        texture_path = "tfc:item/metal/ingot/" + metal[0]
+        file_path = "../src/main/resources/assets/tfc/models/item/metal/ingot/" + metal[0] + ".json"
+        dict["parent"] = "item/generated"
+        func.create_nested_dict(["textures", "layer0"], texture_path, dict)
+        func.gen_json(dict, file_path)
+
+        # ingot part models
+        if metal[1]:
+            for type in namelist.types_parts:
+                texture_path = "tfc:item/metal/" + type + "/" + metal[0]
+                file_path = "../src/main/resources/assets/tfc/models/item/metal/" + type + "/" + metal[0] + ".json"
+                dict["parent"] = "item/generated"
+                func.create_nested_dict(["textures", "layer0"], texture_path, dict)
+                func.gen_json(dict, file_path)

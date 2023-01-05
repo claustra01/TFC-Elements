@@ -37,8 +37,7 @@ metals = [
     ["osmium", 1, 1, 1]
 ]
 
-types_basic = [
-    "ingot",
+types_parts = [
     "double_ingot",
     "sheet",
     "double_sheet",
