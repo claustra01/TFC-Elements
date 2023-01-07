@@ -1,5 +1,6 @@
 import namelist
 import func
+import func_model
 
 # Generate ore model files
 def ore_model_gen():
@@ -25,17 +26,17 @@ def ore_model_gen():
                     # Ore blockitem models
                     parent_path = "tfc:block/ore/" + grade + "_" + ore[0] + "/" + rock
                     file_path = "../src/main/resources/assets/tfc/models/item/ore/" + grade + "_" + ore[0] + "/" + rock + ".json"
-                    func.gen_blockitem(parent_path, file_path)
+                    func_model.gen_blockitem(parent_path, file_path)
                     
                 # Ore item models
                 texture_path = "tfc:item/ore/" + grade + "_" + ore[0]
                 file_path = "../src/main/resources/assets/tfc/models/item/ore/" + grade + "_" + ore[0] + ".json"
-                func.gen_item(texture_path, file_path)
+                func_model.gen_item(texture_path, file_path)
 
             # Small ores
             texture_path = "tfc:item/ore/small_" + ore[0]
             file_path = "../src/main/resources/assets/tfc/models/item/ore/small_" + ore[0] + ".json"
-            func.gen_item(texture_path, file_path)
+            func_model.gen_item(texture_path, file_path)
 
         # Non-graded ores
         else:
@@ -56,31 +57,31 @@ def ore_model_gen():
                 # Ore blockitem models
                 parent_path = "tfc:block/ore/" + ore[0] + "/" + rock
                 file_path = "../src/main/resources/assets/tfc/models/item/ore/" + ore[0] + "/" + rock + ".json"
-                func.gen_blockitem(texture_path, file_path)
+                func_model.gen_blockitem(texture_path, file_path)
 
                 # Ore item models
                 texture_path = "tfc:item/ore/" + ore[0]
                 file_path = "../src/main/resources/assets/tfc/models/item/ore/" + ore[0] + ".json"
-                func.gen_item(texture_path, file_path)
+                func_model.gen_item(texture_path, file_path)
 
 
 # Generate metal item model files
 def metal_model_gen():
     for metal in namelist.metals:
         
-        # ingot item models
+        # Ingot item models
         texture_path = "tfc:item/metal/ingot/" + metal[0]
         file_path = "../src/main/resources/assets/tfc/models/item/metal/ingot/" + metal[0] + ".json"
-        func.gen_item(texture_path, file_path)
+        func_model.gen_item(texture_path, file_path)
 
-        # tool item models
+        # Tool item models
         if metal[1]:
-            dict = func.gen_metal_item(namelist.types_tools, metal)
+            func_model.gen_metal_item(namelist.types_tools, metal)
 
-        # basic part item models
+        # Basic part item models
         if metal[2]:
-            func.gen_metal_item(namelist.types_parts, metal)
+            func_model.gen_metal_item(namelist.types_parts, metal)
 
-        # armor item models
+        # Armor item models
         if metal[3]:
-            func.gen_metal_item(namelist.types_armors, metal)
+            func_model.gen_metal_item(namelist.types_armors, metal)
