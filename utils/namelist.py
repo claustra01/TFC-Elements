@@ -34,7 +34,7 @@ grades = [
 
 metals = [
     # name, enableTool, enablePart, enableArmor, enableUtility, [textureType, h, s, v]
-    ["osmium", 1, 1, 1, 1, ["base", 0, 0, 0]]
+    ["osmium", 1, 1, 1, 1, ["base", -171, 17, 0]]
 ]
 
 types_parts = [
