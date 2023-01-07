@@ -2,7 +2,7 @@ import namelist
 import func
 
 # Generate ore blockstate files
-def ore_blockstate_gen():
+def ore_state_gen():
     for ore in namelist.ores:
         
         # Graded ores

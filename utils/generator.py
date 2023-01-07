@@ -8,6 +8,6 @@ gen_models.metal_model_gen()
 
 gen_image.metal_image_gen()
 
-gen_states.ore_blockstate_gen()
+gen_states.ore_state_gen()
 
 gen_lang.gen_lang()
