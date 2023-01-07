@@ -7,19 +7,42 @@ def gen_json(dict, file_path):
     f.close()
 
 # Create nested dict
-def create_nested_dict(list, val, dict, n=0):
+def gen_nested_dict(list, val, dict, n=0):
     if n < len(list) - 1:
         dict[list[n]] = {}
-        create_nested_dict(list, val, dict[list[n]], n + 1)
+        gen_nested_dict(list, val, dict[list[n]], n + 1)
     else:
         dict[list[n]] = val
+
+# Generate basic blockitem model
+def gen_blockitem(parent_path, file_path):
+    dict = {}
+    dict["parent"] = parent_path
+    gen_json(dict, file_path)
+
+# Generate basic item model
+def gen_item(texture_path, file_path):
+    dict = {}
+    dict["parent"] = "item/generated"
+    gen_nested_dict(["textures", "layer0"], texture_path, dict)
+    gen_json(dict, file_path)
 
 # Generate metal item model
 def gen_metal_item(types, metal):
     for type in types:
-        dict = {}
         texture_path = "tfc:item/metal/" + type + "/" + metal[0]
         file_path = "../src/main/resources/assets/tfc/models/item/metal/" + type + "/" + metal[0] + ".json"
-        dict["parent"] = "item/generated"
-        create_nested_dict(["textures", "layer0"], texture_path, dict)
-        gen_json(dict, file_path)
+        gen_item(texture_path, file_path)
+
+# Generate metal item lang key
+def trans_metal_item(types, metal, dict) -> dict:
+    for type in types:
+        trans_key = "item.tfc.metal." + type + "." + metal[0]
+        if type == "propick":
+            display_name = metal[0].replace("_", " ").title() + " " + "Prospector's Pick"
+        elif type == "propick_head":
+            display_name = metal[0].replace("_", " ").title() + " " + "Prospector's Pick Head"
+        else:
+            display_name = metal[0].replace("_", " ").title() + " " + type.replace("_", " ").title()
+        dict[trans_key] = display_name
+    return dict
