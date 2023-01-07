@@ -13,15 +13,15 @@ def gen_lang():
                 for rock in namelist.rocks:
         
                     trans_key = "block.tfc.ore." + grade + "_" + ore[0] + "." + rock
-                    display_name = grade.title() + " " + rock.title() + " " + ore[0].replace("_", " ").title() + " Ore"
+                    display_name = grade.title() + " " + rock.title() + " " + ore[0].replace("_", " ").title()
                     dict[trans_key] = display_name
 
                 trans_key = "item.tfc.ore." + grade + "_" + ore[0]
-                display_name = grade.title() + " " + ore[0].replace("_", " ").title() + " Ore"
+                display_name = grade.title() + " " + ore[0].replace("_", " ").title()
                 dict[trans_key] = display_name
             
             trans_key = "block.tfc.ore.small_"  + ore[0]
-            display_name = "Small " + ore[0].replace("_", " ").title() + " Ore"
+            display_name = "Small " + ore[0].replace("_", " ").title()
             dict[trans_key] = display_name
 
     # Metal Item Translation
