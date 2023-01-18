@@ -51,13 +51,13 @@ def gen_model():
                     parent_path = "tfc:block/ore/" + grade + "_" + ore[0] + "/" + rock
                     tfce_utils.create_simple_blockitem_model(dir_path, file_path, parent_path)
                     
-                # graded ore item
+                # graded ores item
                 dir_path = "../src/main/resources/assets/tfc/models/item/ore"
                 file_path = dir_path + "/" + grade + "_" + ore[0] + ".json"
                 texture_path = "tfc:item/ore/" + grade + "_" + ore[0]
                 tfce_utils.create_simple_item_model(dir_path, file_path, texture_path)
                 
-            # small ore item
+            # small ores item
             dir_path = "../src/main/resources/assets/tfc/models/item/ore"
             file_path = dir_path + "/small_" + ore[0] + ".json"
             texture_path = "tfc:item/ore/small_" + ore[0]
