@@ -63,3 +63,27 @@ def gen_model():
             texture_path = "tfc:item/ore/small_" + ore[0]
             tfce_utils.create_simple_item_model(dir_path, file_path, texture_path)
             
+
+def gen_lang():
+    
+    file_path = "../src/main/resources/assets/tfcelem/lang/en_us.json"
+    dict = tfce_utils.read_json(file_path)
+    
+    for ore in tfce_types.ores:
+        if ore[1]:
+            for grade in tfce_types.grades:
+                for rock in tfce_types.rocks:
+                    
+                    trans_key = "block.tfc.ore." + grade + "_" + ore[0] + "." + rock
+                    display_name = grade.title() + " " + rock.title() + " " + ore[0].replace("_", " ").title()
+                    dict[trans_key] = display_name
+
+                trans_key = "item.tfc.ore." + grade + "_" + ore[0]
+                display_name = grade.title() + " " + ore[0].replace("_", " ").title()
+                dict[trans_key] = display_name
+            
+            trans_key = "block.tfc.ore.small_"  + ore[0]
+            display_name = "Small " + ore[0].replace("_", " ").title()
+            dict[trans_key] = display_name
+            
+    tfce_utils.write_json(dict, file_path)
