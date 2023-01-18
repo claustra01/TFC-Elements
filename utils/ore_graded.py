@@ -29,7 +29,6 @@ def gen_state():
 def gen_model():
     for ore in tfce_types.ores:
         if ore[1]:
-            
             for grade in tfce_types.grades:
                 for rock in tfce_types.rocks:
                     
@@ -50,5 +49,17 @@ def gen_model():
                     dir_path = "../src/main/resources/assets/tfc/models/item/ore/" + grade + "_" + ore[0]
                     file_path = dir_path + "/" + rock + ".json"
                     parent_path = "tfc:block/ore/" + grade + "_" + ore[0] + "/" + rock
-                    tfce_utils.create_simple_blockitem(dir_path, file_path, parent_path)
+                    tfce_utils.create_simple_blockitem_model(dir_path, file_path, parent_path)
+                    
+                # graded ore item
+                dir_path = "../src/main/resources/assets/tfc/models/item/ore"
+                file_path = dir_path + "/" + grade + "_" + ore[0] + ".json"
+                texture_path = "tfc:item/ore/" + grade + "_" + ore[0]
+                tfce_utils.create_simple_item_model(dir_path, file_path, texture_path)
+                
+            # small ore item
+            dir_path = "../src/main/resources/assets/tfc/models/item/ore"
+            file_path = dir_path + "/small_" + ore[0] + ".json"
+            texture_path = "tfc:item/ore/small_" + ore[0]
+            tfce_utils.create_simple_item_model(dir_path, file_path, texture_path)
             

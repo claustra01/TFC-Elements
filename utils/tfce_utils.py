@@ -44,7 +44,7 @@ def create_custom_block_model(dir_path, file_path, dict):
     
     
 # create simple blockitem model
-def create_simple_blockitem(dir_path, file_path, parent_path):
+def create_simple_blockitem_model(dir_path, file_path, parent_path):
     dict = {}
     dict["parent"] = parent_path
     create_dir(dir_path)
@@ -52,4 +52,8 @@ def create_simple_blockitem(dir_path, file_path, parent_path):
 
 
 # create simple item model
-
+def create_simple_item_model(dir_path, file_path, texture_path):
+    dict = {}
+    dict["parent"] = "item/generated"
+    create_nested_dict(["textures", "layer0"], texture_path, dict)
+    write_json(dict, file_path)    
