@@ -56,4 +56,5 @@ def create_simple_item_model(dir_path, file_path, texture_path):
     dict = {}
     dict["parent"] = "item/generated"
     create_nested_dict(["textures", "layer0"], texture_path, dict)
+    create_dir(dir_path)
     write_json(dict, file_path)    
