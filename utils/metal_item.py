@@ -33,7 +33,18 @@ def gen_model():
 
         # tool
         if metal[1]:
-            create_metal_item_model(metal, tfce_types.types_tools)
+            for type in tfce_types.types_tools:
+                dict = {}
+                dir_path = "../src/main/resources/assets/tfc/models/item/metal/" + type
+                file_path = dir_path + "/" + metal[0] + ".json"
+                colored_path = "tfc:item/metal/" + type + "/" + metal[0]
+                handle_path = "tfc:item/metal/" + type + "/handle"
+                tfce_utils.create_simple_item_model(dir_path, file_path, texture_path)
+                dict["parent"] = "item/generated"
+                tfce_utils.create_nested_dict(["textures", "layer0"], colored_path, dict)
+                dict["textures"]["layer1"] = handle_path
+                tfce_utils.create_dir(dir_path)
+                tfce_utils.write_json(dict, file_path)
 
         # part
         if metal[2]:

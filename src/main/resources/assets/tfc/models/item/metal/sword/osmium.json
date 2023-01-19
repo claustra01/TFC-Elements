@@ -1,6 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tfc:item/metal/sword/osmium"
+    "layer0": "tfc:item/metal/sword/osmium",
+    "layer1": "tfc:item/metal/sword/handle"
   }
 }

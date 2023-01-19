@@ -1,6 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tfc:item/metal/propick/osmium"
+    "layer0": "tfc:item/metal/propick/osmium",
+    "layer1": "tfc:item/metal/propick/handle"
   }
 }
