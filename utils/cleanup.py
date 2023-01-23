@@ -1,6 +1,5 @@
 import os
 import glob
-import cv2
 import tfce_types
 import tfce_images
 
