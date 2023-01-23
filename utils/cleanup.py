@@ -30,5 +30,3 @@ def cleanup_metal_tools(dir_path):
 cleanup_metal_parts("../src/main/resources/assets/tfc/textures/item/metal/ingot")
 for type in tfce_types.types_parts:
     cleanup_metal_parts("../src/main/resources/assets/tfc/textures/item/metal/" + type)
-for type in tfce_types.types_tools:
-    cleanup_metal_tools("../src/main/resources/assets/tfc/textures/item/metal/" + type)
