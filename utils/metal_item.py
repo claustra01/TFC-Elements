@@ -8,7 +8,7 @@ def create_metal_item_model(metal, types):
         file_path = dir_path + "/" + metal[0] + ".json"
         texture_path = "tfc:item/metal/" + type + "/" + metal[0]
         tfce_utils.create_simple_item_model(dir_path, file_path, texture_path)
-
+        
 
 def trans_metal_item(metal, types, dict) -> dict:
     for type in types:
@@ -89,7 +89,23 @@ def gen_lang():
 def gen_texture():
     for metal in tfce_types.metals:
         
+        # ingot
         temp_path = "../src/main/resources/assets/tfc/textures/item/metal/ingot/" + metal[5][0] + "_base.png"
         file_path = "../src/main/resources/assets/tfc/textures/item/metal/ingot/" + metal[0] + ".png"
         tfce_images.change_hsv(temp_path, file_path, metal[5][1], metal[5][2], metal[5][3])
+
+        # tool
+        if metal[1]:
+            for type in tfce_types.types_tools:
+                if not type == "shield":
+                    temp_path = "../src/main/resources/assets/tfc/textures/item/metal/" + type + "/base.png"
+                    file_path = "../src/main/resources/assets/tfc/textures/item/metal/" + type + "/" + metal[0] + ".png"
+                    tfce_images.change_hsv(temp_path, file_path, metal[5][1], metal[5][2], metal[5][3])
+
+        # part
+        if metal[2]:
+            for type in tfce_types.types_parts:
+                temp_path = "../src/main/resources/assets/tfc/textures/item/metal/" + type + "/" + metal[5][0] + "_base.png"
+                file_path = "../src/main/resources/assets/tfc/textures/item/metal/" + type + "/" + metal[0] + ".png"
+                tfce_images.change_hsv(temp_path, file_path, metal[5][1], metal[5][2], metal[5][3])
 
