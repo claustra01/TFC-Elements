@@ -20,5 +20,7 @@ def cleanup_metal_items(dir_path):
 def cleanup_metal_tools(dir_path):
     return
 
-dir_path = "../src/main/resources/assets/tfc/textures/item/metal/" + "ingot"
-cleanup_metal_items(dir_path)
+cleanup_metal_items("../src/main/resources/assets/tfc/textures/item/metal/ingot")
+for type in tfce_types.types_parts:
+    dir_path = "../src/main/resources/assets/tfc/textures/item/metal/" + type
+    cleanup_metal_items(dir_path)
