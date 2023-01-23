@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 def transpare(bgr_img, bgr_mask, div_range):
-    mask = np.all((bgr_img[:,:,:] - bgr_mask) <= div_range, axis=-1)
+    mask = np.all(abs((bgr_img[:,:,:] - bgr_mask)) <= div_range, axis=-1)
     bgra_img = cv2.cvtColor(bgr_img, cv2.COLOR_BGR2BGRA)
     bgra_img[mask, 3] = 0
     return bgra_img
@@ -32,5 +32,6 @@ def grayscale(temp_path, file_path):
     gray_img = cv2.imread(temp_path, 0)
     cv2.imwrite(file_path, gray_img)
     bgra_img = transpare(cv2.imread(file_path), [0, 0, 0], 5)
+    bgra_img = transpare(cv2.cvtColor(bgra_img, cv2.COLOR_BGRA2BGR), [255, 255, 255], 0)
     cv2.imwrite(file_path, bgra_img)
     
