@@ -1,4 +1,6 @@
-# Don't Run!!!
+"""
+    Don't Run!!!
+
 import os
 import glob
 import tfce_types
@@ -31,3 +33,5 @@ def cleanup_metal_tools(dir_path):
 cleanup_metal_parts("../src/main/resources/assets/tfc/textures/item/metal/ingot")
 for type in tfce_types.types_parts:
     cleanup_metal_parts("../src/main/resources/assets/tfc/textures/item/metal/" + type)
+    
+"""
