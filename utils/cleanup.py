@@ -14,7 +14,8 @@ def cleanup_metal_items(dir_path):
             result_path = dir_path + "/steel_type.png"
             tfce_images.grayscale(file_path, result_path)
             tfce_images.change_hsv(result_path, result_path, 0, 0, 30)
-        os.remove(file_path)
+        if not "type.png" in file_path:
+            os.remove(file_path)
 
 def cleanup_metal_tools(dir_path):
     return
