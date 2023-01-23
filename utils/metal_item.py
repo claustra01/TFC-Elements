@@ -1,5 +1,6 @@
 import tfce_types
 import tfce_utils
+import tfce_images
 
 def create_metal_item_model(metal, types):
     for type in types:
@@ -86,4 +87,9 @@ def gen_lang():
 
 
 def gen_texture():
-    return
+    for metal in tfce_types.metals:
+        
+        temp_path = "../src/main/resources/assets/tfc/textures/item/metal/ingot/" + metal[5][0] + "_base.png"
+        file_path = "../src/main/resources/assets/tfc/textures/item/metal/ingot/" + metal[0] + ".png"
+        tfce_images.change_hsv(temp_path, file_path, metal[5][1], metal[5][2], metal[5][3])
+

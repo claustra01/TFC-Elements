@@ -14,4 +14,5 @@ ore_graded.gen_lang()
 
 # metal items
 metal_item.gen_model()
+metal_item.gen_texture()
 metal_item.gen_lang()
