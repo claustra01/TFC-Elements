@@ -32,6 +32,5 @@ def grayscale(temp_path, file_path):
     gray_img = cv2.imread(temp_path, 0)
     cv2.imwrite(file_path, gray_img)
     bgra_img = transpare(cv2.imread(file_path), [0, 0, 0], 5)
-    bgra_img = transpare(cv2.cvtColor(bgra_img, cv2.COLOR_BGRA2BGR), [255, 255, 255], 0)
     cv2.imwrite(file_path, bgra_img)
     
