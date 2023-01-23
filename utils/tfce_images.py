@@ -26,3 +26,11 @@ def change_hsv(temp_path, file_path, h, s, v):
     bgra_img = transpare(bgr_img, bgr_mask, 0)
     cv2.imwrite(file_path, bgra_img)
 
+
+# grayscale
+def grayscale(temp_path, file_path):
+    gray_img = cv2.imread(temp_path, 0)
+    cv2.imwrite(file_path, gray_img)
+    bgra_img = transpare(cv2.imread(file_path), [0, 0, 0], 5)
+    cv2.imwrite(file_path, bgra_img)
+    
