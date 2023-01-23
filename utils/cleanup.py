@@ -3,7 +3,7 @@ import glob
 import tfce_types
 import tfce_images
 
-def cleanup_metal_items(dir_path):
+def cleanup_metal_parts(dir_path):
     files = glob.glob(dir_path + "/*")
     for file_path in files:
         if "\wrought_iron.png" in file_path:
@@ -20,7 +20,6 @@ def cleanup_metal_items(dir_path):
 def cleanup_metal_tools(dir_path):
     return
 
-cleanup_metal_items("../src/main/resources/assets/tfc/textures/item/metal/ingot")
+cleanup_metal_parts("../src/main/resources/assets/tfc/textures/item/metal/ingot")
 for type in tfce_types.types_parts:
-    dir_path = "../src/main/resources/assets/tfc/textures/item/metal/" + type
-    cleanup_metal_items(dir_path)
+    cleanup_metal_parts("../src/main/resources/assets/tfc/textures/item/metal/" + type)
