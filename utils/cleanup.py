@@ -11,7 +11,9 @@ def cleanup_metal_items(dir_path):
         elif "\silver.png" in file_path:
             tfce_images.grayscale(file_path, dir_path + "/silver_type.png")
         elif "\steel.png" in file_path:
-            tfce_images.grayscale(file_path, dir_path + "/steel_type.png")
+            result_path = dir_path + "/steel_type.png"
+            tfce_images.grayscale(file_path, result_path)
+            tfce_images.change_hsv(result_path, result_path, 0, 0, 30)
         os.remove(file_path)
 
 def cleanup_metal_tools(dir_path):
