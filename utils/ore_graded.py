@@ -96,7 +96,7 @@ def register_tags():
             for grade in tfce_types.grades:
 
                 values = []
-                dir_path = "../src/main/resources/data/tfc/tags/blocks/ores" + ore[0]
+                dir_path = "../src/main/resources/data/tfc/tags/blocks/ores/" + ore[0]
                 file_path = dir_path + "/" + grade + ".json"
                 for rock in tfce_types.rocks:
                     values.append("tfc:ore/" + grade + "_" + ore[0] + "/" + rock)
