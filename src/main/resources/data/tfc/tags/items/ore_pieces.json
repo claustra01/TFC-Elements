@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
+    "tfc:ore/poor_native_platinum",
+    "tfc:ore/normal_native_platinum",
+    "tfc:ore/rich_native_platinum",
     "tfc:ore/poor_native_osmium",
     "tfc:ore/normal_native_osmium",
     "tfc:ore/rich_native_osmium"

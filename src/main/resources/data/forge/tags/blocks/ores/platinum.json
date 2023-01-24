@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#tfc:ores/platinum/poor",
+    "#tfc:ores/platinum/normal",
+    "#tfc:ores/platinum/rich"
+  ]
+}
