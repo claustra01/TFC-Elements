@@ -22,8 +22,8 @@ rocks = [
 ]
 
 ores = [
-    # name, isGraded
-    ["native_osmium", True]
+    # name, isGraded, metalName
+    ["native_osmium", True, "osmium"]
 ]
 
 grades = [
