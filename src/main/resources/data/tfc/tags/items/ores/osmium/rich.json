@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:ore/rich_native_osmium/granite",
+    "tfc:ore/rich_native_osmium/diorite",
+    "tfc:ore/rich_native_osmium/gabbro",
+    "tfc:ore/rich_native_osmium/shale",
+    "tfc:ore/rich_native_osmium/claystone",
+    "tfc:ore/rich_native_osmium/limestone",
+    "tfc:ore/rich_native_osmium/conglomerate",
+    "tfc:ore/rich_native_osmium/dolomite",
+    "tfc:ore/rich_native_osmium/chert",
+    "tfc:ore/rich_native_osmium/chalk",
+    "tfc:ore/rich_native_osmium/rhyolite",
+    "tfc:ore/rich_native_osmium/basalt",
+    "tfc:ore/rich_native_osmium/andesite",
+    "tfc:ore/rich_native_osmium/dacite",
+    "tfc:ore/rich_native_osmium/quartzite",
+    "tfc:ore/rich_native_osmium/slate",
+    "tfc:ore/rich_native_osmium/phyllite",
+    "tfc:ore/rich_native_osmium/schist",
+    "tfc:ore/rich_native_osmium/gneiss",
+    "tfc:ore/rich_native_osmium/marble"
+  ]
+}

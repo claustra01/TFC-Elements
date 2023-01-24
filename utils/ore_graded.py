@@ -93,11 +93,23 @@ def register_tags():
     
     for ore in tfce_types.ores:
         if ore[1]:
+            
+            # rock-typed ore blocks
             for grade in tfce_types.grades:
-
                 values = []
                 dir_path = "../src/main/resources/data/tfc/tags/blocks/ores/" + ore[2]
                 file_path = dir_path + "/" + grade + ".json"
                 for rock in tfce_types.rocks:
                     values.append("tfc:ore/" + grade + "_" + ore[0] + "/" + rock)
                 tfce_utils.create_simple_tag(dir_path, file_path, values)
+
+            # rock-typed ore items
+            for grade in tfce_types.grades:
+                values = []
+                dir_path = "../src/main/resources/data/tfc/tags/items/ores/" + ore[2]
+                file_path = dir_path + "/" + grade + ".json"
+                for rock in tfce_types.rocks:
+                    values.append("tfc:ore/" + grade + "_" + ore[0] + "/" + rock)
+                tfce_utils.create_simple_tag(dir_path, file_path, values)
+    
+
