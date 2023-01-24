@@ -112,4 +112,18 @@ def register_tags():
                     values.append("tfc:ore/" + grade + "_" + ore[0] + "/" + rock)
                 tfce_utils.create_simple_tag(dir_path, file_path, values)
     
+            # all grades blocks
+            values = []
+            dir_path = "../src/main/resources/data/forge/tags/blocks/ores"
+            file_path = dir_path + "/" + ore[2] + ".json"
+            for grade in tfce_types.grades:
+                values.append("tfc:ores/" + ore[2] + "/" + grade)
+            tfce_utils.create_simple_tag(dir_path, file_path, values)
 
+            # all grades items
+            values = []
+            dir_path = "../src/main/resources/data/forge/tags/items/ores"
+            file_path = dir_path + "/" + ore[2] + ".json"
+            for grade in tfce_types.grades:
+                values.append("tfc:ores/" + ore[2] + "/" + grade)
+            tfce_utils.create_simple_tag(dir_path, file_path, values)
