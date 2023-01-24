@@ -87,3 +87,17 @@ def gen_lang():
             dict[trans_key] = display_name
             
     tfce_utils.write_json(dict, file_path)
+
+
+def register_tags():
+    
+    for ore in tfce_types.ores:
+        if ore[1]:
+            for grade in tfce_types.grades:
+
+                values = []
+                dir_path = "../src/main/resources/data/tfc/tags/blocks/ores" + ore[0]
+                file_path = dir_path + "/" + grade + ".json"
+                for rock in tfce_types.rocks:
+                    values.append("tfc:ore/" + grade + "_" + ore[0] + "/" + rock)
+                tfce_utils.create_simple_tag(dir_path, file_path, values)

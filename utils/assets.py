@@ -11,6 +11,7 @@ tfce_utils.write_json(dict, file_path)
 ore_graded.gen_state()
 ore_graded.gen_model()
 ore_graded.gen_lang()
+ore_graded.register_tags()
 
 # metal items
 metal_item.gen_model()

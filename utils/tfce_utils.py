@@ -36,7 +36,8 @@ def create_simple_state(dir_path, file_path, model_path):
     create_dir(dir_path)
     create_nested_dict(["variants", "", "model"], model_path, dict)
     write_json(dict, file_path)
-    
+
+
 # create custom block model
 def create_custom_block_model(dir_path, file_path, dict):
     create_dir(dir_path)
@@ -58,3 +59,13 @@ def create_simple_item_model(dir_path, file_path, texture_path):
     create_nested_dict(["textures", "layer0"], texture_path, dict)
     create_dir(dir_path)
     write_json(dict, file_path)    
+
+
+# create simple tag
+def create_simple_tag(dir_path, file_path, values):
+    dict = {}
+    dict["replace"] = False
+    dict["values"] = values
+    create_dir(dir_path)
+    write_json(dict, file_path) 
+
