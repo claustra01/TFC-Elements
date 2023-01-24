@@ -1,5 +1,6 @@
 import tfce_utils
 import ore_graded
+import ore_all
 import metal_item
 
 # init lang file
@@ -12,6 +13,9 @@ ore_graded.gen_state()
 ore_graded.gen_model()
 ore_graded.gen_lang()
 ore_graded.register_tags()
+
+# all ores
+ore_all.register_tags()
 
 # metal items
 metal_item.gen_model()
