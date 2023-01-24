@@ -23,6 +23,7 @@ rocks = [
 
 ores = [
     # name, isGraded, metalName
+    ["native_platinum", True, "platinum"],
     ["native_osmium", True, "osmium"]
 ]
 
@@ -34,6 +35,7 @@ grades = [
 
 metals = [
     # name, enableTool, enablePart, enableArmor, enableUtility, [textureType(iron/silver/steel), h, s, v]
+    ["platinum", False, False, False, True, ["iron", -148, 18, 0]],
     ["osmium", True, True, True, True, ["iron", -171, 17, 0]]
 ]
 
