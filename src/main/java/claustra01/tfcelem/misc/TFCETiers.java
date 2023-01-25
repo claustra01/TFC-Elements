@@ -17,6 +17,7 @@ import java.util.List;
 
 public class TFCETiers {
 
+    public static final Tier ALUMINIUM = register("aluminium", Tiers.IRON, null, TFCTags.Blocks.NEEDS_BRONZE_TOOL, 2, 800, 8f, 4.0f, 16);
     public static final Tier OSMIUM = register("osmium", Tiers.NETHERITE, null, TFCTags.Blocks.NEEDS_COLORED_STEEL_TOOL, 6, 9200, 20f, 11.1f, 24);
 
     private static Tier register(String name, Tier before, @Nullable Tier after, TagKey<Block> tag, int level, int uses, float speed, float damage, int enchantmentValue)

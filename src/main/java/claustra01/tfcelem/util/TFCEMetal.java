@@ -33,6 +33,7 @@ import java.util.function.Supplier;
 public enum TFCEMetal implements RegistryMetal {
 
     PLATINUM(0xFF9DADC0, Rarity.EPIC, Metal.Tier.TIER_VI, true, false, false),
+    ALUMINIUM(0xFFD9FBFC, Rarity.UNCOMMON, Metal.Tier.TIER_IV, TFCETiers.ALUMINIUM, TFCEArmorMaterials.ALUMINIUM, true, true, false),
     OSMIUM(0xFFB8D8DE, Rarity.EPIC, Metal.Tier.TIER_VI, TFCETiers.OSMIUM, TFCEArmorMaterials.OSMIUM, true, true, false);
 
     private final String serializedName;
