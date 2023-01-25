@@ -25,7 +25,7 @@ def change_hsv(temp_path, file_path, h, s, v):
     hsv_mask = [hsv_white[0]+h, hsv_white[1]+s, hsv_white[2]+v]
     bgr_mask = cv2.cvtColor(np.array([[hsv_mask]], dtype=np.uint8), cv2.COLOR_HSV2BGR)[0][0]
     
-    bgra_img = transpare(bgr_img, bgr_mask, 0)
+    bgra_img = transpare(bgr_img, bgr_mask, 5)
     cv2.imwrite(file_path, bgra_img)
 
 
