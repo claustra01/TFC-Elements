@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "tfc:ore/small_native_platinum",
+    "tfc:ore/small_bauxite",
     "tfc:ore/small_native_osmium"
   ]
 }
