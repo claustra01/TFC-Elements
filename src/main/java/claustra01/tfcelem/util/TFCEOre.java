@@ -9,6 +9,7 @@ import net.minecraft.world.level.material.Material;
 public enum TFCEOre {
 
     NATIVE_PLATINUM(true),
+    BAUXITE(true),
     NATIVE_OSMIUM(true);
 
     private final boolean grade;
