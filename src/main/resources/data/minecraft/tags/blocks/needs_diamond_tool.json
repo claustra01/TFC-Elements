@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#tfc:ores/platinum/poor",
+    "#tfc:ores/platinum/normal",
+    "#tfc:ores/platinum/rich",
+    "#tfc:ores/osmium/poor",
+    "#tfc:ores/osmium/normal",
+    "#tfc:ores/osmium/rich"
+  ]
+}
