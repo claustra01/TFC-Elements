@@ -32,7 +32,7 @@ def change_hsv(temp_path, file_path, h, s, v):
     hsv_mask = [hsv_white[0]+h, calc(hsv_white[1],s), calc(hsv_white[2],v)]
     bgr_mask = cv2.cvtColor(np.array([[hsv_mask]], dtype=np.uint8), cv2.COLOR_HSV2BGR)[0][0]
     
-    bgra_img = transpare(bgr_img, bgr_mask, 5)
+    bgra_img = transpare(bgr_img, bgr_mask, 0)
     cv2.imwrite(file_path, bgra_img)
 
 
@@ -40,6 +40,6 @@ def change_hsv(temp_path, file_path, h, s, v):
 def grayscale(temp_path, file_path):
     gray_img = cv2.imread(temp_path, 0)
     cv2.imwrite(file_path, gray_img)
-    bgra_img = transpare(cv2.imread(file_path), [255, 255, 255], 5)
+    bgra_img = transpare(cv2.imread(file_path), [255, 255, 255], 0)
     cv2.imwrite(file_path, bgra_img)
     
