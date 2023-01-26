@@ -14,7 +14,7 @@ import java.util.Locale;
 
 public enum TFCEArmorMaterials implements ArmorMaterial, PhysicalDamageType.Multiplier {
 
-    ALUMINIUM(904, 1040, 1030, 735, 4, 6, 8, 4, 23, 3f, 0.1f, 62.5f, 50f, 62.5f),
+    ALUMINUM(904, 1040, 1030, 735, 4, 6, 8, 4, 23, 3f, 0.1f, 62.5f, 50f, 62.5f),
     OSMIUM(904, 1040, 1030, 735, 4, 6, 8, 4, 23, 3f, 0.1f, 62.5f, 50f, 62.5f);
 
     private final ResourceLocation serializedName;
