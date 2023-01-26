@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:metal/rod/platinum",
+    "tfc:metal/rod/aluminum",
+    "tfc:metal/rod/osmium"
+  ]
+}
