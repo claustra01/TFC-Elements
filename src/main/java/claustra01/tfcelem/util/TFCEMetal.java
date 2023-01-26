@@ -32,9 +32,14 @@ import java.util.function.Supplier;
 
 public enum TFCEMetal implements RegistryMetal {
 
-    PLATINUM(0xFF9DADC0, Rarity.EPIC, Metal.Tier.TIER_VI, true, false, false),
-    ALUMINUM(0xFFD9FBFC, Rarity.UNCOMMON, Metal.Tier.TIER_IV, TFCETiers.ALUMINUM, TFCEArmorMaterials.ALUMINUM, true, false, false),
-    OSMIUM(0xFFB8D8DE, Rarity.EPIC, Metal.Tier.TIER_VI, TFCETiers.OSMIUM, TFCEArmorMaterials.OSMIUM, true, false, false);
+    LEAD(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_II, true, false, false),
+    PLATINUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
+    ELECTRUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
+    INVAR(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
+    CONSTANTAN(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
+    SIGNALUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
+    LUMIUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
+    ENDERIUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false);
 
     private final String serializedName;
     private final boolean parts, armor, utility;
