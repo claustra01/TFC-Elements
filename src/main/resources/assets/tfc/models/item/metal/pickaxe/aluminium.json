@@ -1,7 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "tfc:item/metal/pickaxe/aluminium",
-    "layer1": "tfc:item/metal/pickaxe/handle"
-  }
-}

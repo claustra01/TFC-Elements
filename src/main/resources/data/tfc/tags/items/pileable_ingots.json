@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     "tfc:metal/ingot/platinum",
-    "tfc:metal/ingot/aluminium",
+    "tfc:metal/ingot/aluminum",
     "tfc:metal/ingot/osmium"
   ]
 }
