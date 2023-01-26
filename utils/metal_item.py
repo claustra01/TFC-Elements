@@ -109,3 +109,22 @@ def gen_texture():
                 file_path = "../src/main/resources/assets/tfc/textures/item/metal/" + type + "/" + metal[0] + ".png"
                 tfce_images.change_hsv(temp_path, file_path, metal[5][1], metal[5][2], metal[5][3])
 
+
+def register_tags():
+    
+    for metal in tfce_types.metals:
+        
+        # ingots
+        values = []
+        values.append("tfc:metal/ingot/" + metal[0])
+        dir_path = "../src/main/resources/data/forge/tags/items/ingots"
+        file_path = dir_path + "/" + metal[0] + ".json"
+        tfce_utils.create_simple_tag(dir_path, file_path, values)
+        
+        if metal[2]:
+            for type in tfce_types.types_parts:
+                values = []
+                values.append("tfc:metal/" + type + "/" + metal[0])
+                dir_path = "../src/main/resources/data/forge/tags/items/" + type + "s"
+                file_path = dir_path + "/" + metal[0] + ".json"
+                tfce_utils.create_simple_tag(dir_path, file_path, values)
