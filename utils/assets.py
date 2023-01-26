@@ -2,6 +2,7 @@ import tfce_utils
 import ore_graded
 import ore_all
 import metal_item
+import metal_all
 
 # init lang file
 dict = {}
@@ -30,3 +31,6 @@ metal_item.gen_model()
 metal_item.gen_texture()
 metal_item.gen_lang()
 metal_item.register_tags()
+
+# all metals
+metal_all.register_tags()
