@@ -121,6 +121,7 @@ def register_tags():
         file_path = dir_path + "/" + metal[0] + ".json"
         tfce_utils.create_simple_tag(dir_path, file_path, values)
         
+        # parts
         if metal[2]:
             for type in tfce_types.types_parts:
                 values = []
@@ -128,3 +129,20 @@ def register_tags():
                 dir_path = "../src/main/resources/data/forge/tags/items/" + type + "s"
                 file_path = dir_path + "/" + metal[0] + ".json"
                 tfce_utils.create_simple_tag(dir_path, file_path, values)
+        
+        # metal items
+        values = []
+        values.append("tfc:metal/ingot/" + metal[0])
+        dir_path = "../src/main/resources/data/tfc/tags/items/metal_item"
+        file_path = dir_path + "/" + metal[0] + ".json"
+        if metal[1]:
+            for type in tfce_types.types_tools:
+                values.append("tfc:metal/" + type + "/" + metal[0])
+        if metal[2]:
+            for type in tfce_types.types_parts:
+                values.append("tfc:metal/" + type + "/" + metal[0])
+        if metal[3]:
+            for type in tfce_types.types_armors:
+                values.append("tfc:metal/" + type + "/" + metal[0])
+        tfce_utils.create_simple_tag(dir_path, file_path, values)
+        

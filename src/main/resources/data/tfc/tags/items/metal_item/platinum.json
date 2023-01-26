@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:metal/ingot/platinum",
+    "tfc:metal/double_ingot/platinum",
+    "tfc:metal/sheet/platinum",
+    "tfc:metal/double_sheet/platinum",
+    "tfc:metal/rod/platinum"
+  ]
+}
