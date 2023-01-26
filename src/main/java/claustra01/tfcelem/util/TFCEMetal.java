@@ -39,7 +39,9 @@ public enum TFCEMetal implements RegistryMetal {
     CONSTANTAN(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
     SIGNALUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
     LUMIUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
-    ENDERIUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false);
+    ENDERIUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
+    ALUMINUM(0xFFD9FBFC, Rarity.COMMON, Metal.Tier.TIER_IV, TFCETiers.ALUMINUM, TFCEArmorMaterials.ALUMINUM, true, false, false),
+    URANIUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false);
 
     private final String serializedName;
     private final boolean parts, armor, utility;
