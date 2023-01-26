@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:metal/ingot/refined_obsidian",
+    "tfc:metal/double_ingot/refined_obsidian",
+    "tfc:metal/sheet/refined_obsidian",
+    "tfc:metal/double_sheet/refined_obsidian",
+    "tfc:metal/rod/refined_obsidian"
+  ]
+}

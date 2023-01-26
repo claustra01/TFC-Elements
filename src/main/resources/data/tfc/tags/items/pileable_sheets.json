@@ -1,8 +1,18 @@
 {
   "replace": false,
   "values": [
+    "tfc:metal/sheet/lead",
     "tfc:metal/sheet/platinum",
+    "tfc:metal/sheet/electrum",
+    "tfc:metal/sheet/invar",
+    "tfc:metal/sheet/constantan",
+    "tfc:metal/sheet/signalum",
+    "tfc:metal/sheet/lumium",
+    "tfc:metal/sheet/enderium",
     "tfc:metal/sheet/aluminum",
-    "tfc:metal/sheet/osmium"
+    "tfc:metal/sheet/uranium",
+    "tfc:metal/sheet/osmium",
+    "tfc:metal/sheet/refined_obsidian",
+    "tfc:metal/sheet/refined_glowstone"
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:metal/ingot/enderium",
+    "tfc:metal/double_ingot/enderium",
+    "tfc:metal/sheet/enderium",
+    "tfc:metal/double_sheet/enderium",
+    "tfc:metal/rod/enderium"
+  ]
+}

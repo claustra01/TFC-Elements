@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:metal/ingot/signalum",
+    "tfc:metal/double_ingot/signalum",
+    "tfc:metal/sheet/signalum",
+    "tfc:metal/double_sheet/signalum",
+    "tfc:metal/rod/signalum"
+  ]
+}

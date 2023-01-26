@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:metal/ingot/constantan",
+    "tfc:metal/double_ingot/constantan",
+    "tfc:metal/sheet/constantan",
+    "tfc:metal/double_sheet/constantan",
+    "tfc:metal/rod/constantan"
+  ]
+}

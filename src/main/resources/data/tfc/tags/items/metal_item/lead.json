@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:metal/ingot/lead",
+    "tfc:metal/double_ingot/lead",
+    "tfc:metal/sheet/lead",
+    "tfc:metal/double_sheet/lead",
+    "tfc:metal/rod/lead"
+  ]
+}

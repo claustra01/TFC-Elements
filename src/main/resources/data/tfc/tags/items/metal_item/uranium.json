@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:metal/ingot/uranium",
+    "tfc:metal/double_ingot/uranium",
+    "tfc:metal/sheet/uranium",
+    "tfc:metal/double_sheet/uranium",
+    "tfc:metal/rod/uranium"
+  ]
+}

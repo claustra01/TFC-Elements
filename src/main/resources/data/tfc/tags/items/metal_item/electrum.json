@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:metal/ingot/electrum",
+    "tfc:metal/double_ingot/electrum",
+    "tfc:metal/sheet/electrum",
+    "tfc:metal/double_sheet/electrum",
+    "tfc:metal/rod/electrum"
+  ]
+}

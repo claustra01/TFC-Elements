@@ -1,8 +1,18 @@
 {
   "replace": false,
   "values": [
+    "tfc:metal/rod/lead",
     "tfc:metal/rod/platinum",
+    "tfc:metal/rod/electrum",
+    "tfc:metal/rod/invar",
+    "tfc:metal/rod/constantan",
+    "tfc:metal/rod/signalum",
+    "tfc:metal/rod/lumium",
+    "tfc:metal/rod/enderium",
     "tfc:metal/rod/aluminum",
-    "tfc:metal/rod/osmium"
+    "tfc:metal/rod/uranium",
+    "tfc:metal/rod/osmium",
+    "tfc:metal/rod/refined_obsidian",
+    "tfc:metal/rod/refined_glowstone"
   ]
 }

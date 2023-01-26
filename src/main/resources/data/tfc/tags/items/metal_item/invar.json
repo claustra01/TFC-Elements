@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:metal/ingot/invar",
+    "tfc:metal/double_ingot/invar",
+    "tfc:metal/sheet/invar",
+    "tfc:metal/double_sheet/invar",
+    "tfc:metal/rod/invar"
+  ]
+}

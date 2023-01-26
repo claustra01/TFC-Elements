@@ -1,8 +1,18 @@
 {
   "replace": false,
   "values": [
+    "tfc:metal/double_ingot/lead",
     "tfc:metal/double_ingot/platinum",
+    "tfc:metal/double_ingot/electrum",
+    "tfc:metal/double_ingot/invar",
+    "tfc:metal/double_ingot/constantan",
+    "tfc:metal/double_ingot/signalum",
+    "tfc:metal/double_ingot/lumium",
+    "tfc:metal/double_ingot/enderium",
     "tfc:metal/double_ingot/aluminum",
-    "tfc:metal/double_ingot/osmium"
+    "tfc:metal/double_ingot/uranium",
+    "tfc:metal/double_ingot/osmium",
+    "tfc:metal/double_ingot/refined_obsidian",
+    "tfc:metal/double_ingot/refined_glowstone"
   ]
 }

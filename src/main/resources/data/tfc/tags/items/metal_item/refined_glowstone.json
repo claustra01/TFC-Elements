@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:metal/ingot/refined_glowstone",
+    "tfc:metal/double_ingot/refined_glowstone",
+    "tfc:metal/sheet/refined_glowstone",
+    "tfc:metal/double_sheet/refined_glowstone",
+    "tfc:metal/rod/refined_glowstone"
+  ]
+}
