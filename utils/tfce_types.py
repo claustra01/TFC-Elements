@@ -36,9 +36,19 @@ grades = [
 
 metals = [
     # name, enableTool, enablePart, enableArmor, enableUtility, [textureType(iron/silver/steel), h, s, v]
+    ["lead", False, True, False, False, ["iron", -148, 18, 0]],
     ["platinum", False, True, False, False, ["silver", -148, 18, 0]],
-    ["aluminum", False, True, False, False, ["iron", -179, 13, 0]],
-    ["osmium", False, True, False, False, ["iron", -171, 17, 0]]
+    ["electrum", False, True, False, False, ["silver", -148, 18, 0]],
+    ["invar", False, True, False, False, ["iron", -148, 18, 0]],
+    ["constantan", False, True, False, False, ["iron", -148, 18, 0]],
+    ["signalum", False, True, False, False, ["steel", -148, 18, 0]],
+    ["lumium", False, True, False, False, ["steel", -148, 18, 0]],
+    ["enderium", False, True, False, False, ["steel", -148, 18, 0]],
+    ["aluminum", False, True, False, False, ["iron", -148, 18, 0]],
+    ["uranium", False, True, False, False, ["iron", -148, 18, 0]],
+    ["osmium", False, True, False, False, ["iron", -148, 18, 0]],
+    ["refined_obsidian", False, True, False, False, ["steel", -148, 18, 0]],
+    ["refined_glowstone", False, True, False, False, ["steel", -148, 18, 0]]
 ]
 
 types_parts = [
