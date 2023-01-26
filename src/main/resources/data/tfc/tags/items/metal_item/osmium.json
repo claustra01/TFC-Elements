@@ -36,14 +36,6 @@
     "tfc:metal/double_ingot/osmium",
     "tfc:metal/sheet/osmium",
     "tfc:metal/double_sheet/osmium",
-    "tfc:metal/rod/osmium",
-    "tfc:metal/helmet/osmium",
-    "tfc:metal/chestplate/osmium",
-    "tfc:metal/greaves/osmium",
-    "tfc:metal/boots/osmium",
-    "tfc:metal/unfinished_helmet/osmium",
-    "tfc:metal/unfinished_chestplate/osmium",
-    "tfc:metal/unfinished_greaves/osmium",
-    "tfc:metal/unfinished_boots/osmium"
+    "tfc:metal/rod/osmium"
   ]
 }

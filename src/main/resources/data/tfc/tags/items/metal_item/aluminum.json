@@ -36,14 +36,6 @@
     "tfc:metal/double_ingot/aluminum",
     "tfc:metal/sheet/aluminum",
     "tfc:metal/double_sheet/aluminum",
-    "tfc:metal/rod/aluminum",
-    "tfc:metal/helmet/aluminum",
-    "tfc:metal/chestplate/aluminum",
-    "tfc:metal/greaves/aluminum",
-    "tfc:metal/boots/aluminum",
-    "tfc:metal/unfinished_helmet/aluminum",
-    "tfc:metal/unfinished_chestplate/aluminum",
-    "tfc:metal/unfinished_greaves/aluminum",
-    "tfc:metal/unfinished_boots/aluminum"
+    "tfc:metal/rod/aluminum"
   ]
 }

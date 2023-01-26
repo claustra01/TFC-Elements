@@ -40,9 +40,9 @@ public enum TFCEMetal implements RegistryMetal {
     SIGNALUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
     LUMIUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
     ENDERIUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
-    ALUMINUM(0xFFD9FBFC, Rarity.COMMON, Metal.Tier.TIER_IV, TFCETiers.ALUMINUM, TFCEArmorMaterials.ALUMINUM, true, false, false),
+    ALUMINUM(0xFFD9FBFC, Rarity.COMMON, Metal.Tier.TIER_IV, true, false, false),
     URANIUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
-    OSMIUM(0xFFB8D8DE, Rarity.COMMON, Metal.Tier.TIER_VI, TFCETiers.OSMIUM, TFCEArmorMaterials.OSMIUM, true, false, false),
+    OSMIUM(0xFFB8D8DE, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
     REFINED_OBSIDIAN(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
     REFINED_GLOWSTONE(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false);
 

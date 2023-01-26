@@ -36,9 +36,9 @@ grades = [
 
 metals = [
     # name, enableTool, enablePart, enableArmor, enableUtility, [textureType(iron/silver/steel), h, s, v]
-    ["platinum", False, True, False, True, ["silver", -148, 18, 0]],
-    ["aluminum", True, True, True, True, ["iron", -179, 13, 0]],
-    ["osmium", True, True, True, True, ["iron", -171, 17, 0]]
+    ["platinum", False, True, False, False, ["silver", -148, 18, 0]],
+    ["aluminum", False, True, False, False, ["iron", -179, 13, 0]],
+    ["osmium", False, True, False, False, ["iron", -171, 17, 0]]
 ]
 
 types_parts = [
