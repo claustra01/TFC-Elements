@@ -1,3 +1,3 @@
 [submodule "TFCElem-Utils"]
-	path = TFCElem-Utils
+	path = utils
 	url = https://github.com/claustra01/TFCElem-Utils
