@@ -32,8 +32,9 @@ import java.util.function.Supplier;
 
 public enum TFCEMetal implements RegistryMetal {
 
-    LEAD(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_II, true, false, false),
+    LEAD(0xFF7E7E8C, Rarity.COMMON, Metal.Tier.TIER_II, true, false, false),
     PLATINUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
+
     ELECTRUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_III, true, false, false),
     INVAR(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
     CONSTANTAN(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_IV, true, false, false),
