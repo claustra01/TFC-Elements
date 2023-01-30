@@ -34,10 +34,10 @@ public enum TFCEMetal implements RegistryMetal {
 
     LEAD(0xFF7E7E8C, Rarity.COMMON, Metal.Tier.TIER_II, true, false, false),
     PLATINUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
+    ELECTRUM(0xFFDFB950, Rarity.COMMON, Metal.Tier.TIER_III, true, false, false),
+    INVAR(0xFFAAAA9E, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
+    CONSTANTAN(0xFFD28874, Rarity.COMMON, Metal.Tier.TIER_IV, true, false, false),
 
-    ELECTRUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_III, true, false, false),
-    INVAR(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
-    CONSTANTAN(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_IV, true, false, false),
     SIGNALUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_IV, true, false, false),
     LUMIUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_V, true, false, false),
     ENDERIUM(0xFF9DADC0, Rarity.COMMON, Metal.Tier.TIER_VI, true, false, false),
