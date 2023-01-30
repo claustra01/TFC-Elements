@@ -1,0 +1,12 @@
+{
+    "tier": 6,
+    "fluid": "tfc:metal/refined_obsidian",
+    "melt_temperature": 3033,
+    "specific_heat_capacity": 0.02143,
+    "ingots": {
+      "tag": "forge:ingots/refined_obsidian"
+    },
+    "sheets": {
+      "tag": "forge:sheets/refined_obsidian"
+    }
+  }

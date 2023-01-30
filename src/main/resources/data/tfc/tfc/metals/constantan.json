@@ -1,0 +1,12 @@
+{
+    "tier": 4,
+    "fluid": "tfc:metal/constantan",
+    "melt_temperature": 1207,
+    "specific_heat_capacity": 0.00625,
+    "ingots": {
+      "tag": "forge:ingots/constantan"
+    },
+    "sheets": {
+      "tag": "forge:sheets/constantan"
+    }
+  }

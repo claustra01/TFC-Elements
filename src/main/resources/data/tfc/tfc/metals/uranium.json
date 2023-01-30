@@ -1,0 +1,12 @@
+{
+    "tier": 6,
+    "fluid": "tfc:metal/uranium",
+    "melt_temperature": 1132,
+    "specific_heat_capacity": 0.02143,
+    "ingots": {
+      "tag": "forge:ingots/uranium"
+    },
+    "sheets": {
+      "tag": "forge:sheets/uranium"
+    }
+  }
