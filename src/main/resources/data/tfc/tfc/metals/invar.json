@@ -1,12 +1,12 @@
 {
-    "tier": 4,
-    "fluid": "tfc:metal/invar",
-    "melt_temperature": 1687,
-    "specific_heat_capacity": 0.00857,
-    "ingots": {
-      "tag": "forge:ingots/invar"
-    },
-    "sheets": {
-      "tag": "forge:sheets/invar"
-    }
+  "tier": 4,
+  "fluid": "tfc:metal/invar",
+  "melt_temperature": 1687,
+  "specific_heat_capacity": 0.00857,
+  "ingots": {
+    "tag": "forge:ingots/invar"
+  },
+  "sheets": {
+    "tag": "forge:sheets/invar"
   }
+}

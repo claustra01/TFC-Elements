@@ -1,12 +1,12 @@
 {
-    "tier": 5,
-    "fluid": "tfc:metal/lumium",
-    "melt_temperature": 961,
-    "specific_heat_capacity": 0.00625,
-    "ingots": {
-      "tag": "forge:ingots/lumium"
-    },
-    "sheets": {
-      "tag": "forge:sheets/lumium"
-    }
+  "tier": 5,
+  "fluid": "tfc:metal/lumium",
+  "melt_temperature": 961,
+  "specific_heat_capacity": 0.00625,
+  "ingots": {
+    "tag": "forge:ingots/lumium"
+  },
+  "sheets": {
+    "tag": "forge:sheets/lumium"
   }
+}

@@ -1,12 +1,12 @@
 {
-    "tier": 2,
-    "fluid": "tfc:metal/lead",
-    "melt_temperature": 328,
-    "specific_heat_capacity": 0.02143,
-    "ingots": {
-      "tag": "forge:ingots/lead"
-    },
-    "sheets": {
-      "tag": "forge:sheets/lead"
-    }
+  "tier": 2,
+  "fluid": "tfc:metal/lead",
+  "melt_temperature": 328,
+  "specific_heat_capacity": 0.02143,
+  "ingots": {
+    "tag": "forge:ingots/lead"
+  },
+  "sheets": {
+    "tag": "forge:sheets/lead"
   }
+}

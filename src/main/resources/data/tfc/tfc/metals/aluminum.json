@@ -1,12 +1,12 @@
 {
-    "tier": 5,
-    "fluid": "tfc:metal/aluminum",
-    "melt_temperature": 660,
-    "specific_heat_capacity": 0.00857,
-    "ingots": {
-      "tag": "forge:ingots/aluminum"
-    },
-    "sheets": {
-      "tag": "forge:sheets/aluminum"
-    }
+  "tier": 5,
+  "fluid": "tfc:metal/aluminum",
+  "melt_temperature": 660,
+  "specific_heat_capacity": 0.00857,
+  "ingots": {
+    "tag": "forge:ingots/aluminum"
+  },
+  "sheets": {
+    "tag": "forge:sheets/aluminum"
   }
+}

@@ -1,12 +1,12 @@
 {
-    "tier": 6,
-    "fluid": "tfc:metal/platinum",
-    "melt_temperature": 1768,
-    "specific_heat_capacity": 0.005,
-    "ingots": {
-      "tag": "forge:ingots/platinum"
-    },
-    "sheets": {
-      "tag": "forge:sheets/platinum"
-    }
+  "tier": 6,
+  "fluid": "tfc:metal/platinum",
+  "melt_temperature": 1768,
+  "specific_heat_capacity": 0.005,
+  "ingots": {
+    "tag": "forge:ingots/platinum"
+  },
+  "sheets": {
+    "tag": "forge:sheets/platinum"
   }
+}
