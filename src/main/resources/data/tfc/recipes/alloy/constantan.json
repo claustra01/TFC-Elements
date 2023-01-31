@@ -1,6 +1,6 @@
 {
     "type": "tfc:alloy",
-    "result": "tfc:electrum",
+    "result": "tfc:constantan",
     "contents": [
       {
         "metal": "tfc:copper",

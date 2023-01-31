@@ -1,6 +1,6 @@
 {
     "type": "tfc:alloy",
-    "result": "tfc:electrum",
+    "result": "tfc:invar",
     "contents": [
       {
         "metal": "tfc:wrought_iron",
