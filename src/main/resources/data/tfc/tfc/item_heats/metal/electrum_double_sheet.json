@@ -1,0 +1,10 @@
+{
+  "ingredient": [
+    {
+      "item": "tfc:metal/double_sheet/electrum"
+    }
+  ],
+  "heat_capacity": 0.833,
+  "forging_temperature": 638,
+  "welding_temperature": 851
+}

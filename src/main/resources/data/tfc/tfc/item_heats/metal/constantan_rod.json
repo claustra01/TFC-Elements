@@ -1,0 +1,10 @@
+{
+  "ingredient": [
+    {
+      "item": "tfc:metal/rod/constantan"
+    }
+  ],
+  "heat_capacity": 1.143,
+  "forging_temperature": 724,
+  "welding_temperature": 966
+}

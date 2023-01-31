@@ -1,0 +1,10 @@
+{
+  "ingredient": [
+    {
+      "item": "tfc:metal/double_sheet/invar"
+    }
+  ],
+  "heat_capacity": 1.143,
+  "forging_temperature": 1012,
+  "welding_temperature": 1350
+}

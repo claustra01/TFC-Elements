@@ -1,0 +1,10 @@
+{
+  "ingredient": [
+    {
+      "item": "tfc:metal/rod/uranium"
+    }
+  ],
+  "heat_capacity": 2.857,
+  "forging_temperature": 679,
+  "welding_temperature": 906
+}

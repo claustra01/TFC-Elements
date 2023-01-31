@@ -1,0 +1,10 @@
+{
+  "ingredient": [
+    {
+      "item": "tfc:metal/double_sheet/platinum"
+    }
+  ],
+  "heat_capacity": 0.667,
+  "forging_temperature": 1061,
+  "welding_temperature": 1414
+}

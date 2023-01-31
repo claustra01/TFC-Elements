@@ -1,0 +1,10 @@
+{
+  "ingredient": [
+    {
+      "item": "tfc:metal/rod/lumium"
+    }
+  ],
+  "heat_capacity": 0.833,
+  "forging_temperature": 577,
+  "welding_temperature": 769
+}
