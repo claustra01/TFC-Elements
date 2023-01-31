@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "forge:sheets/refined_glowstone"
+  },
+  "second_input": {
+    "tag": "forge:sheets/refined_glowstone"
+  },
+  "tier": 6,
+  "result": {
+    "item": "tfc:metal/double_sheet/refined_glowstone"
+  }
+}

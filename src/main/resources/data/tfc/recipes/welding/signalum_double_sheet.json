@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "forge:sheets/signalum"
+  },
+  "second_input": {
+    "tag": "forge:sheets/signalum"
+  },
+  "tier": 5,
+  "result": {
+    "item": "tfc:metal/double_sheet/signalum"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "tag": "forge:sheets/lumium"
+  },
+  "second_input": {
+    "tag": "forge:sheets/lumium"
+  },
+  "tier": 5,
+  "result": {
+    "item": "tfc:metal/double_sheet/lumium"
+  }
+}
