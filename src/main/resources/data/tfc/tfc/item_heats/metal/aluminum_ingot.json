@@ -1,0 +1,10 @@
+{
+  "ingredient": [
+    {
+      "item": "tfc:metal/ingot/aluminum"
+    }
+  ],
+  "heat_capacity": 1.143,
+  "forging_temperature": 396,
+  "welding_temperature": 528
+}

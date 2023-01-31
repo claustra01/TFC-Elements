@@ -1,0 +1,10 @@
+{
+  "ingredient": [
+    {
+      "item": "tfc:metal/ingot/signalum"
+    }
+  ],
+  "heat_capacity": 1.143,
+  "forging_temperature": 648,
+  "welding_temperature": 864
+}
