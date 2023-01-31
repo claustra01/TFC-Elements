@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:double_ingots/lumium"
+  },
+  "result": {
+    "item": "forge:sheet/lumium",
+    "count": 1
+  },
+  "tier": 5,
+  "rules": [
+    "hit_last",
+    "hit_second_last",
+    "hit_third_last"
+  ]
+}

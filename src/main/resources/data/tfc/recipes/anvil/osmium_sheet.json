@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:double_ingots/osmium"
+  },
+  "result": {
+    "item": "forge:sheet/osmium",
+    "count": 1
+  },
+  "tier": 6,
+  "rules": [
+    "hit_last",
+    "hit_second_last",
+    "hit_third_last"
+  ]
+}
