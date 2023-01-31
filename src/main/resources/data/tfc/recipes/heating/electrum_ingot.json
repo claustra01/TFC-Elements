@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc:metal/ingot/electrum"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/electrum",
+    "amount": 100
+  },
+  "temperature": 1064
+}

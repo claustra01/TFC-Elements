@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc:metal/rod/refined_obsidian"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/refined_obsidian",
+    "amount": 50.0
+  },
+  "temperature": 3033
+}

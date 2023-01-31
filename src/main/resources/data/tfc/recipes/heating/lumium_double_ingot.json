@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc:metal/double_ingot/lumium"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/lumium",
+    "amount": 200
+  },
+  "temperature": 961
+}

@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc:metal/rod/invar"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/invar",
+    "amount": 50.0
+  },
+  "temperature": 1687
+}

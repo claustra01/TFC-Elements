@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc:metal/rod/electrum"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/electrum",
+    "amount": 50.0
+  },
+  "temperature": 1064
+}

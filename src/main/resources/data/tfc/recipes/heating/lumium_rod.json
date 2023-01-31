@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc:metal/rod/lumium"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/lumium",
+    "amount": 50.0
+  },
+  "temperature": 961
+}

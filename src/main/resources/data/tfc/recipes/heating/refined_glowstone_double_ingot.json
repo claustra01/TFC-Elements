@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc:metal/double_ingot/refined_glowstone"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/refined_glowstone",
+    "amount": 200
+  },
+  "temperature": 3033
+}
