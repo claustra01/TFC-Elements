@@ -4,7 +4,7 @@
     "tag": "forge:ingots/refined_obsidian"
   },
   "result": {
-    "item": "forge:rod/refined_obsidian",
+    "item": "tfc:metal/rod/refined_obsidian",
     "count": 2
   },
   "tier": 6,

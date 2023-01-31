@@ -4,7 +4,7 @@
     "tag": "forge:ingots/lumium"
   },
   "result": {
-    "item": "forge:rod/lumium",
+    "item": "tfc:metal/rod/lumium",
     "count": 2
   },
   "tier": 5,

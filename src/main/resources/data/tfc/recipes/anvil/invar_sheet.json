@@ -4,7 +4,7 @@
     "tag": "forge:double_ingots/invar"
   },
   "result": {
-    "item": "forge:sheet/invar",
+    "item": "tfc:metal/sheet/invar",
     "count": 1
   },
   "tier": 4,

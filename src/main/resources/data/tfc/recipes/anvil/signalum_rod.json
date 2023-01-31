@@ -4,7 +4,7 @@
     "tag": "forge:ingots/signalum"
   },
   "result": {
-    "item": "forge:rod/signalum",
+    "item": "tfc:metal/rod/signalum",
     "count": 2
   },
   "tier": 5,

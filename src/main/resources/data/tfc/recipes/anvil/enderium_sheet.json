@@ -4,7 +4,7 @@
     "tag": "forge:double_ingots/enderium"
   },
   "result": {
-    "item": "forge:sheet/enderium",
+    "item": "tfc:metal/sheet/enderium",
     "count": 1
   },
   "tier": 6,

@@ -4,7 +4,7 @@
     "tag": "forge:ingots/refined_glowstone"
   },
   "result": {
-    "item": "forge:rod/refined_glowstone",
+    "item": "tfc:metal/rod/refined_glowstone",
     "count": 2
   },
   "tier": 6,

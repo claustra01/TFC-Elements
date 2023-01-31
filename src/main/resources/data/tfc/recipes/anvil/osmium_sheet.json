@@ -4,7 +4,7 @@
     "tag": "forge:double_ingots/osmium"
   },
   "result": {
-    "item": "forge:sheet/osmium",
+    "item": "tfc:metal/sheet/osmium",
     "count": 1
   },
   "tier": 6,

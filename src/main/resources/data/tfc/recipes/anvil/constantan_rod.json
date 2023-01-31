@@ -4,7 +4,7 @@
     "tag": "forge:ingots/constantan"
   },
   "result": {
-    "item": "forge:rod/constantan",
+    "item": "tfc:metal/rod/constantan",
     "count": 2
   },
   "tier": 4,

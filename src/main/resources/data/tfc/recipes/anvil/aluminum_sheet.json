@@ -4,7 +4,7 @@
     "tag": "forge:double_ingots/aluminum"
   },
   "result": {
-    "item": "forge:sheet/aluminum",
+    "item": "tfc:metal/sheet/aluminum",
     "count": 1
   },
   "tier": 5,

@@ -4,7 +4,7 @@
     "tag": "forge:double_ingots/constantan"
   },
   "result": {
-    "item": "forge:sheet/constantan",
+    "item": "tfc:metal/sheet/constantan",
     "count": 1
   },
   "tier": 4,

@@ -4,7 +4,7 @@
     "tag": "forge:ingots/aluminum"
   },
   "result": {
-    "item": "forge:rod/aluminum",
+    "item": "tfc:metal/rod/aluminum",
     "count": 2
   },
   "tier": 5,

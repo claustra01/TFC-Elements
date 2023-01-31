@@ -4,7 +4,7 @@
     "tag": "forge:double_ingots/lead"
   },
   "result": {
-    "item": "forge:sheet/lead",
+    "item": "tfc:metal/sheet/lead",
     "count": 1
   },
   "tier": 2,

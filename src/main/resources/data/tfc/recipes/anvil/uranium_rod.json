@@ -4,7 +4,7 @@
     "tag": "forge:ingots/uranium"
   },
   "result": {
-    "item": "forge:rod/uranium",
+    "item": "tfc:metal/rod/uranium",
     "count": 2
   },
   "tier": 6,

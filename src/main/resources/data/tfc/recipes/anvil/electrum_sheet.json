@@ -4,7 +4,7 @@
     "tag": "forge:double_ingots/electrum"
   },
   "result": {
-    "item": "forge:sheet/electrum",
+    "item": "tfc:metal/sheet/electrum",
     "count": 1
   },
   "tier": 3,

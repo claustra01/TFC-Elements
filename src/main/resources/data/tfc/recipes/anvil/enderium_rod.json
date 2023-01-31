@@ -4,7 +4,7 @@
     "tag": "forge:ingots/enderium"
   },
   "result": {
-    "item": "forge:rod/enderium",
+    "item": "tfc:metal/rod/enderium",
     "count": 2
   },
   "tier": 6,

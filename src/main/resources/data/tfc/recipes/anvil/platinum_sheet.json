@@ -4,7 +4,7 @@
     "tag": "forge:double_ingots/platinum"
   },
   "result": {
-    "item": "forge:sheet/platinum",
+    "item": "tfc:metal/sheet/platinum",
     "count": 1
   },
   "tier": 6,

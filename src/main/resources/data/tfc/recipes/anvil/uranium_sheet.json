@@ -4,7 +4,7 @@
     "tag": "forge:double_ingots/uranium"
   },
   "result": {
-    "item": "forge:sheet/uranium",
+    "item": "tfc:metal/sheet/uranium",
     "count": 1
   },
   "tier": 6,

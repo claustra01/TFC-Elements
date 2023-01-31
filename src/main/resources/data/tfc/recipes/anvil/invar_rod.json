@@ -4,7 +4,7 @@
     "tag": "forge:ingots/invar"
   },
   "result": {
-    "item": "forge:rod/invar",
+    "item": "tfc:metal/rod/invar",
     "count": 2
   },
   "tier": 4,

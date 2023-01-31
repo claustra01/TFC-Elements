@@ -4,7 +4,7 @@
     "tag": "forge:ingots/electrum"
   },
   "result": {
-    "item": "forge:rod/electrum",
+    "item": "tfc:metal/rod/electrum",
     "count": 2
   },
   "tier": 3,

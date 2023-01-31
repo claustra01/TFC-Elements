@@ -4,7 +4,7 @@
     "tag": "forge:ingots/lead"
   },
   "result": {
-    "item": "forge:rod/lead",
+    "item": "tfc:metal/rod/lead",
     "count": 2
   },
   "tier": 2,

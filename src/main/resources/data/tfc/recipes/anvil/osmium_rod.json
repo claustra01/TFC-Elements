@@ -4,7 +4,7 @@
     "tag": "forge:ingots/osmium"
   },
   "result": {
-    "item": "forge:rod/osmium",
+    "item": "tfc:metal/rod/osmium",
     "count": 2
   },
   "tier": 6,

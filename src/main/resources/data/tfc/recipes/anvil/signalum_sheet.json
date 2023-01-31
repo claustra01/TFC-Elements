@@ -4,7 +4,7 @@
     "tag": "forge:double_ingots/signalum"
   },
   "result": {
-    "item": "forge:sheet/signalum",
+    "item": "tfc:metal/sheet/signalum",
     "count": 1
   },
   "tier": 5,

@@ -4,7 +4,7 @@
     "tag": "forge:double_ingots/refined_obsidian"
   },
   "result": {
-    "item": "forge:sheet/refined_obsidian",
+    "item": "tfc:metal/sheet/refined_obsidian",
     "count": 1
   },
   "tier": 6,
