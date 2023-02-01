@@ -8,8 +8,10 @@ import net.minecraft.world.level.material.Material;
 
 public enum TFCEOre {
 
+    GALENA(true),
     NATIVE_PLATINUM(true),
     BAUXITE(true),
+    PITCHBLENDE(true),
     NATIVE_OSMIUM(true);
 
     private final boolean grade;
