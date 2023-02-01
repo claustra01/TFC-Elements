@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "tfc:ore/poor_pitchblende/granite",
+    "tfc:ore/poor_pitchblende/diorite",
+    "tfc:ore/poor_pitchblende/gabbro",
+    "tfc:ore/poor_pitchblende/shale",
+    "tfc:ore/poor_pitchblende/claystone",
+    "tfc:ore/poor_pitchblende/limestone",
+    "tfc:ore/poor_pitchblende/conglomerate",
+    "tfc:ore/poor_pitchblende/dolomite",
+    "tfc:ore/poor_pitchblende/chert",
+    "tfc:ore/poor_pitchblende/chalk",
+    "tfc:ore/poor_pitchblende/rhyolite",
+    "tfc:ore/poor_pitchblende/basalt",
+    "tfc:ore/poor_pitchblende/andesite",
+    "tfc:ore/poor_pitchblende/dacite",
+    "tfc:ore/poor_pitchblende/quartzite",
+    "tfc:ore/poor_pitchblende/slate",
+    "tfc:ore/poor_pitchblende/phyllite",
+    "tfc:ore/poor_pitchblende/schist",
+    "tfc:ore/poor_pitchblende/gneiss",
+    "tfc:ore/poor_pitchblende/marble"
+  ]
+}

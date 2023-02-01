@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc:ore/small_pitchblende"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/uranium",
+    "amount": 10
+  },
+  "temperature": 1132
+}

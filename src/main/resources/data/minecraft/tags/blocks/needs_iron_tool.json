@@ -3,6 +3,9 @@
   "values": [
     "#tfc:ores/aluminum/poor",
     "#tfc:ores/aluminum/normal",
-    "#tfc:ores/aluminum/rich"
+    "#tfc:ores/aluminum/rich",
+    "#tfc:ores/uranium/poor",
+    "#tfc:ores/uranium/normal",
+    "#tfc:ores/uranium/rich"
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tfc:block/groundcover/pitchblende",
+        "y": 90
+      },
+      {
+        "model": "tfc:block/groundcover/pitchblende"
+      },
+      {
+        "model": "tfc:block/groundcover/pitchblende",
+        "y": 180
+      },
+      {
+        "model": "tfc:block/groundcover/pitchblende",
+        "y": 270
+      }
+    ]
+  }
+}

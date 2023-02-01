@@ -1,0 +1,19 @@
+{
+  "ingredient": [
+    {
+      "item": "tfc:ore/poor_pitchblende"
+    },
+    {
+      "item": "tfc:ore/normal_pitchblende"
+    },
+    {
+      "item": "tfc:ore/rich_pitchblende"
+    },
+    {
+      "item": "tfc:ore/small_pitchblende"
+    }
+  ],
+  "heat_capacity": 1.143,
+  "forging_temperature": 679,
+  "welding_temperature": 906
+}

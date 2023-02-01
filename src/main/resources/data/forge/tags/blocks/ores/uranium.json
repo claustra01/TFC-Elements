@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#tfc:ores/uranium/poor",
+    "#tfc:ores/uranium/normal",
+    "#tfc:ores/uranium/rich"
+  ]
+}

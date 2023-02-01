@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "tfc:ore/rich_galena"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/lead",
+    "amount": 35
+  },
+  "temperature": 328
+}

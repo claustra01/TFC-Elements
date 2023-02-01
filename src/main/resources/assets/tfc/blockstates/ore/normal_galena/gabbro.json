@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tfc:block/ore/normal_galena/gabbro"
+    }
+  }
+}

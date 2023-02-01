@@ -1,12 +1,18 @@
 {
   "replace": false,
   "values": [
+    "#tfc:ores/lead/poor",
+    "#tfc:ores/lead/normal",
+    "#tfc:ores/lead/rich",
     "#tfc:ores/platinum/poor",
     "#tfc:ores/platinum/normal",
     "#tfc:ores/platinum/rich",
     "#tfc:ores/aluminum/poor",
     "#tfc:ores/aluminum/normal",
     "#tfc:ores/aluminum/rich",
+    "#tfc:ores/uranium/poor",
+    "#tfc:ores/uranium/normal",
+    "#tfc:ores/uranium/rich",
     "#tfc:ores/osmium/poor",
     "#tfc:ores/osmium/normal",
     "#tfc:ores/osmium/rich"
